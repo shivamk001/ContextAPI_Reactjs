@@ -4,6 +4,7 @@ const { useState } = require("react")
 
 export default function ParentComponent(){
     let [color, setColor]=useState('#000000')
+    //console.log(color)
     return (
         <>
         <h1>Pick a Color:</h1>
